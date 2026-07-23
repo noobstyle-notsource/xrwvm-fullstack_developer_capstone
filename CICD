@@ -1,7 +1,26 @@
+✓ main Lint Code · 18836357268
+
+Lint Python Files (ID 53738140285) in 16s
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Set up Python
+  ✓ Install dependencies
+  ✓ Run Flake8 Linter
+  ✓ Complete job
+
+Lint JavaScript Files (ID 53738140286) in 14s
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Install Node.js
+  ✓ Install JSHint
+  ✓ Run JSHint Linter
+  ✓ Complete job
+
 Run actions/checkout@v3
 Run actions/setup-python@v4
 Run python -m pip install --upgrade pip
 Run pip install -r requirements.txt
 Run python manage.py test
 Ran 5 tests in 0.421s
+
 OK
