@@ -1,0 +1,7 @@
+Run actions/checkout@v3
+Run actions/setup-python@v4
+Run python -m pip install --upgrade pip
+Run pip install -r requirements.txt
+Run python manage.py test
+Ran 5 tests in 0.421s
+OK
